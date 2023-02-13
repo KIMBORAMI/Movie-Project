@@ -1,0 +1,289 @@
+.more_movie_container {
+
+    margin: 0 auto;
+}
+.more_movie_contents {
+    width: 100%;
+    margin: 0;
+    padding: 70px 0 0 0;
+}
+.location-fixed {
+    padding-top: 70px;
+}
+.more_movie_inner_wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+h2.more_tit {
+    padding: 0 0 44px 0;
+    font-size: 1.9em;
+    font-weight: 500;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    color: #503396;
+}
+ul.tabs{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    list-style: none;
+}
+ul.tabs li{
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border: 1px solid #ebebeb;
+    border-width: 1px ;
+    border-bottom: 1px solid #503396;
+    margin-right:-4.6px
+}
+ul.tabs li.current{
+    color: #503396;
+    border: 1px solid #503396;
+    border-bottom: 0;
+    border-bottom: 1px solid #ebebeb;
+}
+.tab-link {
+    width: 30%;
+}
+.tab-content{
+    display: none;
+    padding: 50px 0 0 0;
+}
+.tab-content.current{
+    display: inherit;
+}
+.more_movie_info {
+	width: 100%;
+}
+.more_movie_info ol li {
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height: 450px;
+    margin: 0 0 20px 33px;
+    background-color: #fff;
+    padding-left: 30px;
+}
+.more_movie_info ol li .more_list_info {
+    display: block;
+    position: relative;
+    height: 331px;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+.more_movie_info ol li .more_list_info img {
+    width: 230px;
+    height: 331px;
+}
+.more_movie_info ol li .more_list_info img.poster {
+    width: 230px;
+    height: 331px;
+}
+.ir {
+    text-indent: -9999px;
+    position: fixed;
+    top: -9999px;
+    font-size: 1px;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+.rank {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    font-size: 2.3em;
+    color: #fff;
+    font-family: 'Roboto';
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+}
+.more_movie_info ol li .tit-area .movie-grade {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -10px;
+}
+.more_movie_info ol li .tit-area {
+    position: relative;
+    margin: 5px 0 5px 0;
+    padding: 0 0 0 30px;
+    line-height: 25px;
+    width: 230px;
+}
+.movie-grade {
+    overflow: hidden;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    text-indent: -9999px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.more_movie_info ol li .tit-area .tit {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 2px 0 0 1px;
+    font-size: 1.3333em;
+    font-weight: 500;
+}
+
+.rate-date {
+    overflow: hidden;
+}
+.rate-date span {
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+.rate-date span.rate {
+    margin: 0 7px 0 0;
+    padding: 0 8px 0 0;
+}
+.rate-date span.rate:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 1px;
+    height: 12px;
+    margin: -6px 0 0 0;
+    background-color: #d8d9db;
+}
+.movie-list ol li .btn-util {
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 36px;
+}
+.btn-util .btn-like {
+    float: left;
+    width: 72px;
+    margin: 0;
+    padding: 0 5px;
+    font-size: .8667em;
+    border-color: #ebebeb;
+}
+.button {
+    display: inline-block;
+    height: 36px;
+    margin: 0;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 34px;
+    color: #503396;
+    font-weight: 400;
+    border-radius: 4px;
+    font-family: NanumBarunGothic,Dotum,'�룍��',sans-serif;
+    text-decoration: none;
+    border: 1px solid #503396;
+    vertical-align: middle;
+    background-color: #fff;
+    cursor: pointer;
+}
+.button>i:first-child {
+    margin-left: 0;
+    margin-right: 4px;
+}
+.button>i {
+    margin-top: -2px;
+}
+.ico-heart-toggle-gray {
+    width: 17px;
+    height: 15px;
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-heart-toggle-gray.png);
+}
+.iconset {
+    overflow: hidden;
+    display: inline-block;
+    margin: -1px 0 0 0;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: middle;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.btn-util {
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 38px;
+}
+.button.purple {
+    color: #fff;
+    line-height: 36px;
+    border: 0;
+    background: #503396;
+}
+.btn-util .case {
+    float: left;
+    width: 120px;
+    margin-left: 5px;
+}
+.btn-util .case .button {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-grade.age-12 {
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/txt/12_46x46.png);
+    background-size: 23px 23px;
+}
+.movie-grade.age-15 {
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/txt/15_46x46.png);
+    background-size: 23px 23px;
+}
+.movie-grade.age-19 {
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/txt/18_46x46.png);
+    background-size: 23px 23px;
+}
+.movie-grade.age-all {
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/txt/ALL_46x46.png);
+    background-size: 23px 23px;
+}
+.movie-grade.age-no {
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/txt/none_46x46.png);
+    background-size: 23px 23px;
+}
+.btn-more {
+    position: relative;
+    padding: 40px 0 0 0;
+}
+.more_movie_info .btnAddMovie {
+    border-top: 1px solid #eaeaea;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.more_movie_info .btnAddMovie {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 0;
+    height: 40px;
+    background-color: transparent;
+    color: #666;
+}
+.btn-more .btn i {
+    margin-left: 6px;
+}
+.ico-btn-more-arr {
+    width: 12px;
+    height: 7px;
+    background-image: url(https://img.megabox.co.kr/static/pc/images/common/ico/ico-btn-more-arr.png);
+}
